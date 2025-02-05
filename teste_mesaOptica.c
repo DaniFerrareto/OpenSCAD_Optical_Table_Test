@@ -50,6 +50,6 @@ module funcao_2d_array_cilindros(r,d,h,nx,ny,geo,res,nome="Conjunto 1"){
 
 // Vamos fazer um teste para uma mesa óptica milimétrica de furos M6 (uma folga de 0.15) e uma distância de 25mm entre furos
 difference(){
-    translate([-6+0.3,-6+0.3,0])cube([233.1+6+0.3,233.1+6+0.3,2]);
+    translate([-6-0.3,-6-0.3,0])cube([233.1+6+0.3,233.1+6+0.3,2]);
     #funcao_2d_array_cilindros(6/2+0.15,25.2,2,10,10,1,100,"Mesa Óptica");   
 }
